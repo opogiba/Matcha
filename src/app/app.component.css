@@ -1,0 +1,42 @@
+
+mat-sidenav-container {
+  flex: 1;
+}
+
+mat-sidenav {
+  width: 300px;
+}
+
+mat-toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+mat-toolbar > img {
+  width: 45px;
+  margin: 0 10px 0 10px;
+}
+
+/*.example-button-row {*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-around;*/
+/*}*/
+
+mat-toolbar > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  box-sizing: border-box;
+  /*padding: 0 16px;*/
+  /*width: 100%;*/
+  /*!* flex-direction: row; *!*/
+  /*!* align-items: center; *!*/
+  /*white-space: nowrap;*/
+}
+
+.fill {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
